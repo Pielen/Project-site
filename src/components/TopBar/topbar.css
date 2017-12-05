@@ -1,0 +1,26 @@
+/*
+ * Colors
+ * ========================================================================== */
+.topbar-container {
+  background-color: #000000;
+  position: fixed;
+  width: 100%; }
+
+.menu-items {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: auto;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.item {
+  color: #FFFFFF;
+  padding: 15px;
+  font-variant: small-caps; }
+
+.item:hover {
+  color: #00BFD8;
+  background-color: #5a5a5b; }

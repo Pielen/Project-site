@@ -1,0 +1,17 @@
+/*
+ * Colors
+ * ========================================================================== */
+.header {
+  background-color: #171717;
+  height: 250px;
+  padding: 20px;
+  color: #FFFFFF; }
+
+.logo {
+  margin-top: 40px;
+  width: 70%;
+  max-height: 100%; }
+
+@media only screen and (max-width: 500px) {
+  .header {
+    height: 8%; } }

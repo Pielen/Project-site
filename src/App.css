@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Work+Sans");
+/*
+ * Colors
+ * ========================================================================== */
+p, li {
+  font-family: 'Work Sans', sans-serif; }
+
+h1, h2 {
+  font-family: 'Work Sans', sans-serif;
+  font-variant: small-caps; }
+
+.App {
+  text-align: center; }
+
+.App-title {
+  font-size: 1.5em; }
+
+.App-intro {
+  font-size: large; }
