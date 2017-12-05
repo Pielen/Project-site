@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import {
-  BrowserRouter as Router,
-  Route,
-  Link
+  HashRouter as Router,
+  Route
 } from 'react-router-dom';
-import logo from './logo.svg';
 import './App.css';
 import StartPage from './views/StartPage/startpage.jsx';
 import DOSpage from './views/DOSpage/dospage.jsx';

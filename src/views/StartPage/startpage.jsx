@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
-import {
-  BrowserRouter as Router,
-  Route,
-  Link
-} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Header from '../../components/Header/header.jsx';
-import css from './startpage.scss';
+import './startpage.scss';
 
 class StartPage extends Component {
   render() {

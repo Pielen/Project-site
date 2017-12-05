@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import MemberCard from '../MemberCard/membercard.jsx';
-import css from './team.scss';
+import './team.scss';
 
 class Team extends Component {
   render() {

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import css from './demovideo.scss';
+import './demovideo.scss';
 
 class Demo extends Component {
   render() {

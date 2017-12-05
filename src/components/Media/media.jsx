@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ImageGallery from 'react-image-gallery';
-import css from './media.scss';
+import './media.scss';
 import { IMAGES } from '../../dostext.jsx';
 
 class Media extends Component {
