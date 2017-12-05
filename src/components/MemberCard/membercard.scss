@@ -1,0 +1,34 @@
+@import '../../variables.scss';
+
+.member-wrapper {
+  border-radius: 25px;
+  border: 2px solid $soft-black;
+  padding: 20px;
+  width: 300px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.member-picture {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.icon {
+  height: 30px;
+}
+
+.icon-link {
+  text-decoration: none;
+}
+
+.contribution-list {
+  list-style-type: circle;
+  list-style-position: inside;
+
+}
+
+.contribution-item {
+  text-align: left;
+}
