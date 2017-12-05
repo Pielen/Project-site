@@ -14,7 +14,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <div>
             <Route exact path="/" component={StartPage}/>
             <Route path="/dos" component={DOSpage}/>

@@ -1,7 +1,7 @@
 {
   "name": "projectpage",
   "version": "0.1.0",
-  "homepage": "https://pielen.github.io/project-site",
+  "homepage": "https://pielen.github.io/Project-site/",
   "private": true,
   "dependencies": {
     "autoprefixer": "7.1.6",
