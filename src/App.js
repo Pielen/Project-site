@@ -3,7 +3,7 @@ import {
   HashRouter as Router,
   Route
 } from 'react-router-dom';
-import css from './App.scss';
+import './App.scss';
 import StartPage from './views/StartPage/startpage.jsx';
 import DOSpage from './views/DOSpage/dospage.jsx';
 import LineRiderPage from './views/LineRiderPage/lineriderpage.jsx';

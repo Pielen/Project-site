@@ -3,7 +3,7 @@ import github from '../../assets/github.png';
 import linkedin from '../../assets/linkedin.png';
 import mail from '../../assets/mail.png';
 import blog from '../../assets/blog.png';
-import css from './membercard.scss';
+//import css from './membercard.scss';
 
 
 class MemberCard extends Component {
