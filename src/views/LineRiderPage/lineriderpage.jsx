@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import css from './lineriderpage.scss';
 import Header from '../../components/Header/header.jsx';
 import TopBar from '../../components/TopBar/topbar.jsx';
 import Team from '../../components/Team/team.jsx';

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import nisse from '../../assets/Nisse_logo1.png';
-import './header.scss';
+import css from './header.scss';
 
 class Header extends Component {
   render() {
