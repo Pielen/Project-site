@@ -3,6 +3,7 @@ import erikPic from './assets/erik.jpg';
 import eliasPic from './assets/elias.jpeg';
 
 import screenshot1 from './assets/screenshot1.png';
+import screenshot2 from './assets/screenshot2.png';
 import saturnPic from './assets/saturn.png';
 
 export const DOSTEAM = [
@@ -75,6 +76,10 @@ export const ABOUT = [
 ];
 
 export const IMAGES = [
+  {
+    original: screenshot2,
+    thumbnail: screenshot2,
+  },
   {
     original: screenshot1,
     thumbnail: screenshot1,
