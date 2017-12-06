@@ -1,5 +1,6 @@
 import adamPic from './assets/adam.jpg';
 import erikPic from './assets/erik.jpg';
+import eliasPic from './assets/elias.jpeg';
 
 import screenshot1 from './assets/screenshot1.png';
 import saturnPic from './assets/saturn.png';
@@ -25,12 +26,14 @@ export const DOSTEAM = [
   },
   {
     name: 'Elias Lousseief',
-    picture: '',
-    email: '',
-    linkedin: '',
-    github: '',
-    blog: '',
-    contribution: ['Did this', 'Did that', 'Also this'],
+    picture: eliasPic,
+    email: 'elias.lousseief@gmail.com',
+    linkedin: 'https://se.linkedin.com/in/elias-lousseief-7b997556',
+    github: 'https://github.com/fast-reflexes',
+    blog: 'http://www.collow.se',
+    contribution: ['Investigated flame thrower, first person view and strategic grid structures.',
+    'Implemented game over and player wins scene',
+    'Participated in discussions around directions of development.'],
   },
   {
     name: 'Erik Lindbom',
