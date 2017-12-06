@@ -7,6 +7,7 @@ import About from '../../components/About/about.jsx';
 import Demo from '../../components/DemoVideo/demovideo.jsx';
 import Media from '../../components/Media/media.jsx';
 import { DOSTEAM, ABOUT } from '../../dostext.jsx';
+import logo from '../../assets/dos_logo1.png';
 
 class DOSpage extends Component {
   constructor(props) {
@@ -25,8 +26,10 @@ changeView(e){
   render() {
     return (
       <div className="App">
-        <TopBar onchange={this.changeView} />
-        <Header />
+        <div className="header-group">
+          <TopBar onchange={this.changeView} />
+            <Header image={logo} />
+        </div>
         {this.state.currentView === 'about' && <About text={ABOUT} />}
         {this.state.currentView === 'team' && <Team members={DOSTEAM} />}
         {this.state.currentView === 'demo' && <Demo />}

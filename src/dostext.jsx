@@ -1,5 +1,7 @@
 import adamPic from './assets/adam.jpg';
+import erikPic from './assets/erik.jpg';
 
+import screenshot1 from './assets/screenshot1.png';
 import saturnPic from './assets/saturn.png';
 
 export const DOSTEAM = [
@@ -15,10 +17,10 @@ export const DOSTEAM = [
   {
     name: 'Eduardo Rodes Pastor',
     picture: '',
-    email: '',
-    linkedin: '',
+    email: 'edrp@kth.se',
+    linkedin: 'https://es.linkedin.com/in/erodes',
     github: '',
-    blog: '',
+    blog: 'http://defenseofsaturn.blogspot.se',
     contribution: ['Did this', 'Did that', 'Also this'],
   },
   {
@@ -32,17 +34,17 @@ export const DOSTEAM = [
   },
   {
     name: 'Erik Lindbom',
-    picture: '',
-    email: '',
-    linkedin: '',
-    github: '',
-    blog: '',
+    picture: erikPic,
+    email: 'elindbom@kth.se',
+    linkedin: 'https://www.linkedin.com/in/erik-lindbom-42585913a',
+    github: 'https://github.com/elindbom',
+    blog: 'https://computergamedesignbyerik.wordpress.com',
     contribution: ['Did this', 'Did that', 'Also this'],
   },
   {
     name: 'Jonatan Cöster',
     picture: '',
-    email: '',
+    email: 'jonatanc@kth.se',
     linkedin: '',
     github: '',
     blog: '',
@@ -71,15 +73,11 @@ export const ABOUT = [
 
 export const IMAGES = [
   {
+    original: screenshot1,
+    thumbnail: screenshot1,
+  },
+  {
     original: saturnPic,
     thumbnail: saturnPic,
-  },
-  {
-    original: '',
-    thumbnail: ''
-  },
-  {
-    original: '',
-    thumbnail: ''
   }
 ]

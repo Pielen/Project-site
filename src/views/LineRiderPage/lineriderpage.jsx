@@ -7,6 +7,7 @@ import About from '../../components/About/about.jsx';
 import Demo from '../../components/DemoVideo/demovideo.jsx';
 import Media from '../../components/Media/media.jsx';
 import { LINETEAM, ABOUT } from '../../lineridertext.jsx';
+import logo from '../../assets/Nisse_logo1.png';
 
 
 class LineRiderPage extends Component {
@@ -26,8 +27,10 @@ changeView(e){
   render() {
     return (
       <div className="App">
-        <TopBar onchange={this.changeView} />
-        <Header />
+        <div className="header-group">
+          <TopBar onchange={this.changeView} />
+          <Header image={logo} />
+        </div>
           {this.state.currentView === 'about' && <About text={ABOUT} />}
           {this.state.currentView === 'team' && <Team members={LINETEAM} />}
           {this.state.currentView === 'demo' && <Demo />}
