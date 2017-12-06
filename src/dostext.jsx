@@ -14,7 +14,11 @@ export const DOSTEAM = [
     linkedin: 'https://www.linkedin.com/in/adam-pielbusch-b28026140/',
     github: 'https://github.com/Pielen',
     blog: 'http://dh2650pielen.wordpress.com',
-    contribution: ['Did this', 'Did that', 'Also this'],
+    contribution: ['Concept, much of the games core concept and story',
+    'UI, most of the UI used in the game with corresponding game logic.',
+    'Website, creator of this website',
+    'GDD, author of the game design document',
+    'General, presentations to the class and being active in the group'],
   },
   {
     name: 'Eduardo Rodes Pastor',
@@ -52,7 +56,13 @@ export const DOSTEAM = [
     linkedin: '',
     github: '',
     blog: '',
-    contribution: ['Did this', 'Did that', 'Also this'],
+    contribution: ['Modeled the turrets, bases and Saturn.',
+    'Created the terrain and the "spawn portal".',
+    'Built the intro and main menu scenes.',
+    'Created the targeting systems for the turrets, as well as the laser beams.',
+    'Created the background music and the laser sound, and added the other sound effects.',
+    'Wrote a shader to simulate atmospheric scattering on Saturn.',
+    'Added an easter egg.'],
   }
 ];
 

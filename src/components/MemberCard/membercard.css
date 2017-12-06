@@ -22,7 +22,8 @@
 
 .contribution-list {
   list-style-type: circle;
-  list-style-position: inside; }
+  list-style-position: outside; }
 
 .contribution-item {
-  text-align: left; }
+  text-align: left;
+  margin-bottom: 5px; }
