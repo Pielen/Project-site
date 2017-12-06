@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import ImageGallery from 'react-image-gallery';
 import css from './media.scss';
-import { IMAGES } from '../../dostext.jsx';
 
 class Media extends Component {
   render() {
@@ -11,7 +10,7 @@ class Media extends Component {
           Media
         </h1>
         <div className="image-gallery">
-          <ImageGallery items={IMAGES} />
+          <ImageGallery items={this.props.images} />
         </div>
       </div>
     );

@@ -6,7 +6,7 @@ import Team from '../../components/Team/team.jsx';
 import About from '../../components/About/about.jsx';
 import Demo from '../../components/DemoVideo/demovideo.jsx';
 import Media from '../../components/Media/media.jsx';
-import { DOSTEAM, ABOUT } from '../../dostext.jsx';
+import { DOSTEAM, ABOUT, IMAGES } from '../../dostext.jsx';
 import logo from '../../assets/dos_logo1.png';
 
 class DOSpage extends Component {
@@ -33,7 +33,7 @@ changeView(e){
         {this.state.currentView === 'about' && <About text={ABOUT} />}
         {this.state.currentView === 'team' && <Team members={DOSTEAM} />}
         {this.state.currentView === 'demo' && <Demo />}
-        {this.state.currentView === 'media' && <Media />}
+        {this.state.currentView === 'media' && <Media images={IMAGES} />}
       </div>
     );
   }
