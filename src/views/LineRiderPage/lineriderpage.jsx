@@ -29,7 +29,7 @@ changeView(e){
       <div className="App">
         <div className="header-group">
           <TopBar onchange={this.changeView} />
-          <Header image={logo} />
+          {this.state.currentView === 'about' ? <Header image={logo} fullscreen={true} /> : <Header image={logo} />}
         </div>
           {this.state.currentView === 'about' && <About text={ABOUT} />}
           {this.state.currentView === 'team' && <Team members={LINETEAM} />}

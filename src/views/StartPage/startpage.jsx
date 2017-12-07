@@ -2,21 +2,33 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Header from '../../components/Header/header.jsx';
 import css from './startpage.scss';
-import logo from '../../assets/Nisse_logo1.png';
+import doslogo from '../../assets/dos_logo.png';
+import nisselogo from '../../assets/Nisse_logo1.png';
+import knightlogo from '../../assets/KR1.png';
 
 class StartPage extends Component {
   render() {
     return (
-      <div className="App">
-        <Header image={logo} />
-        <p className="StartPage-wrapper">
-          To get started, choose one of the projects listed below.
-        </p>
+      <div className="startpage-container">
+        <div className="startpage-box">
+        <h1 className="startpage-text">
+          To get started, choose one of the projects listed below
+        </h1>
         <div className="list-container">
-        <ul className="project-list">
+          <div className="project-link-button">
+            <Link className="" to="/dos"><img src={doslogo} className="button-logo" /></Link>
+          </div>
+          <div className="project-link-button">
+            <Link className="" to="/linerider"><img src={nisselogo} className="button-logo" /></Link>
+          </div>
+          <div className="project-link-button">
+            <a href="https://galnegus.github.io/KnightRider/"><img src={knightlogo} className="button-logo" /></a>
+          </div>
+        {/*<ul className="project-list">
           <li className="project-item"><Link className="project-link" to="/dos"> DOS - defense of Saturn </Link></li>
           <li className="project-item"><Link className="project-link" to="/linerider"> LineRider </Link></li>
-        </ul>
+        </ul>*/}
+      </div>
       </div>
       </div>
     );

@@ -12,7 +12,9 @@ class About extends Component {
         {this.props.text.map((member, key) =>
           <div key={key} className="text-area">
             <h2 className="title">{member.title}</h2>
-            <p className="text">{member.text}</p>
+            <p className="text">{member.text}
+            {member.link && <a href={member.link} target="blank" >{member.linktext}</a>}
+            </p>
             <hr className="divider" />
           </div>
             )}

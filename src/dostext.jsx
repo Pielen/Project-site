@@ -1,6 +1,7 @@
 import adamPic from './assets/adam.jpg';
 import erikPic from './assets/erik.jpg';
 import eliasPic from './assets/elias.jpeg';
+import avatar from './assets/avatar.png';
 
 import screenshot1 from './assets/screenshot1.png';
 import screenshot2 from './assets/screenshot2.png';
@@ -22,7 +23,7 @@ export const DOSTEAM = [
   },
   {
     name: 'Eduardo Rodes Pastor',
-    picture: '',
+    picture: avatar,
     email: 'edrp@kth.se',
     linkedin: 'https://es.linkedin.com/in/erodes',
     github: '',
@@ -51,10 +52,10 @@ export const DOSTEAM = [
   },
   {
     name: 'Jonatan Cöster',
-    picture: '',
+    picture: avatar,
     email: 'jonatanc@kth.se',
     linkedin: '',
-    github: '',
+    github: 'https://github.com/jonatancoster',
     blog: '',
     contribution: ['Modeled the turrets, bases and Saturn.',
     'Created the terrain and the "spawn portal".',
@@ -82,6 +83,13 @@ export const ABOUT = [
     title: 'How?',
     text: 'Defence of Saturn is built by 5 students for the course Computer Game Design (DH2650) at KTH, Stockholm. ' +
     'The game is created in Unity with most models being created in Maya.',
+  },
+  {
+    title: 'More',
+    text: 'If you want to learn more about the game you can take a look at the game design document (GDD). ' +
+    'In case you are interested in more insights from the developers you can find our individual blogs at the team section. ',
+    link: 'https://docs.google.com/document/d/1kQqh8W6hONO4lRDOQyTz7nHQz2pTb4RE6TZQi2y4ANA/edit?usp=sharing',
+    linktext: 'Link to the GDD.',
   }
 ];
 

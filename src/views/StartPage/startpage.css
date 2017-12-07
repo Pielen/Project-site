@@ -1,9 +1,30 @@
 /*
  * Colors
  * ========================================================================== */
+.startpage-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.startpage-text {
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.startpage-box {
+  margin-top: 10%;
+  border-radius: 25px;
+  border: 2px solid #5a5a5b;
+  min-height: 500px;
+  max-width: 400px; }
+
 .list-container {
   margin-left: 35%;
-  margin-right: 35%; }
+  margin-right: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
 
 .project-list {
   list-style-type: circle;
@@ -18,7 +39,25 @@
   text-decoration: none;
   color: #000000; }
 
+.project-link-button {
+  display: flex;
+  height: 100px;
+  width: 250px;
+  margin-bottom: 10px;
+  background-color: #171717;
+  transition: all .2s ease-in-out; }
+
+.project-link-button:hover {
+  transform: scale(1.1); }
+
+.button-logo {
+  height: 100%;
+  width: 100%; }
+
 @media only screen and (max-width: 500px) {
   .list-container {
     margin-left: 10%;
-    margin-right: 10%; } }
+    margin-right: 10%; }
+  .startpage-box {
+    margin-left: 2%;
+    margin-right: 2%; } }
