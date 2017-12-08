@@ -4,7 +4,8 @@
 .topbar-container {
   background-color: #000000;
   position: fixed;
-  width: 100%; }
+  width: 100%;
+  z-index: 2; }
 
 .menu-items {
   display: flex;

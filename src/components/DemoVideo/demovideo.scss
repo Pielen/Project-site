@@ -11,3 +11,22 @@
   margin-left: 10%;
   margin-right: 10%;
 }
+
+.media-embedder {
+  //position: relative;
+  padding-bottom: 20px;
+}
+
+iframe {
+  //position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+}
+
+@media only screen and (max-width: 500px) {
+  iframe {
+    width: 98vw;
+    height: 250px;
+  }
+}

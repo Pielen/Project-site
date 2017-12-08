@@ -24,10 +24,6 @@ class StartPage extends Component {
           <div className="project-link-button">
             <a href="https://galnegus.github.io/KnightRider/"><img src={knightlogo} className="button-logo" /></a>
           </div>
-        {/*<ul className="project-list">
-          <li className="project-item"><Link className="project-link" to="/dos"> DOS - defense of Saturn </Link></li>
-          <li className="project-item"><Link className="project-link" to="/linerider"> LineRider </Link></li>
-        </ul>*/}
       </div>
       </div>
       </div>

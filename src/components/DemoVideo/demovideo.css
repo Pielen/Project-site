@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
  * Colors
  * ========================================================================== */
@@ -10,3 +11,16 @@
   justify-content: center;
   margin-left: 10%;
   margin-right: 10%; }
+
+.media-embedder {
+  padding-bottom: 20px; }
+
+iframe  {
+  width: 100%;
+  height: 100%;
+  left: 0; }
+
+@media only screen and (max-width: 500px) {
+  iframe {
+    width: 98vw;
+    height: 250px; } }
