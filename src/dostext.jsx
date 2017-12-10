@@ -2,6 +2,8 @@ import adamPic from './assets/adam.jpg';
 import erikPic from './assets/erik.jpg';
 import eliasPic from './assets/elias.jpeg';
 import avatar from './assets/avatar.png';
+import jonatanPic from './assets/jonatan.jpg';
+import eduardoPic from './assets/eduardo.jpg';
 
 import screenshot1 from './assets/screenshot1.png';
 import screenshot2 from './assets/screenshot2.png';
@@ -23,12 +25,17 @@ export const DOSTEAM = [
   },
   {
     name: 'Eduardo Rodes Pastor',
-    picture: avatar,
+    picture: eduardoPic,
     email: 'edrp@kth.se',
     linkedin: 'https://es.linkedin.com/in/erodes',
     github: '',
     blog: 'http://defenseofsaturn.blogspot.se',
-    contribution: ['Did this', 'Did that', 'Also this'],
+    contribution: ['Cannon movement logic and pathfinding (old versions, maybe omissible)',
+    'Cannon movement logic and pathfinding (old versions, maybe omissible)',
+    'Score manager (lives and gold)',
+    'Wave Spawning',
+    'Building logic',
+    'Repairing base and hiring minions logic'],
   },
   {
     name: 'Elias Lousseief',
@@ -48,13 +55,17 @@ export const DOSTEAM = [
     linkedin: 'https://www.linkedin.com/in/erik-lindbom-42585913a',
     github: 'https://github.com/elindbom',
     blog: 'https://computergamedesignbyerik.wordpress.com',
-    contribution: ['Did this', 'Did that', 'Also this'],
+    contribution: ['Setting up the foundation with spawning enemies to a given base ' +
+    'for each player using pathfinding (in an earlier version), possibility to control a ' +
+    'player and shoot (in an earlier version), players and enemies have health including a health bar.',
+    'Multiplayer networking - implemented multiplayer',
+    '3D Modeling - modeling and animation of the drone, the robot and a cannon (earlier version).'],
   },
   {
     name: 'Jonatan Cöster',
-    picture: avatar,
+    picture: jonatanPic,
     email: 'jonatanc@kth.se',
-    linkedin: '',
+    linkedin: 'https://www.linkedin.com/in/jonatan-c%C3%B6ster-743a6a154/',
     github: 'https://github.com/jonatancoster',
     blog: '',
     contribution: ['Modeled the turrets, bases and Saturn.',
