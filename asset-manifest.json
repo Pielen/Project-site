@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.2576e4f9.css",
   "main.css.map": "static/css/main.2576e4f9.css.map",
-  "main.js": "static/js/main.fbd841ab.js",
-  "main.js.map": "static/js/main.fbd841ab.js.map",
+  "main.js": "static/js/main.9acec990.js",
+  "main.js.map": "static/js/main.9acec990.js.map",
   "static/media/KR1.png": "static/media/KR1.9f112637.png",
   "static/media/Nisse_logo1.png": "static/media/Nisse_logo1.d11bcd14.png",
   "static/media/adam.jpg": "static/media/adam.347647a8.jpg",
@@ -15,5 +15,6 @@
   "static/media/linkedin.png": "static/media/linkedin.54686ee4.png",
   "static/media/saturn.png": "static/media/saturn.4d7a3058.png",
   "static/media/screenshot1.png": "static/media/screenshot1.6d40d2f2.png",
-  "static/media/screenshot2.png": "static/media/screenshot2.b4d4988c.png"
+  "static/media/screenshot2.png": "static/media/screenshot2.b4d4988c.png",
+  "static/media/screenshot3.png": "static/media/screenshot3.f050d5ed.png"
 }
