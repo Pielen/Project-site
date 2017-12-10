@@ -7,6 +7,8 @@ import eduardoPic from './assets/eduardo.jpg';
 
 import screenshot1 from './assets/screenshot1.png';
 import screenshot2 from './assets/screenshot2.png';
+import screenshot3 from './assets/screenshot3.png';
+
 import saturnPic from './assets/saturn.png';
 
 export const DOSTEAM = [
@@ -30,8 +32,7 @@ export const DOSTEAM = [
     linkedin: 'https://es.linkedin.com/in/erodes',
     github: '',
     blog: 'http://defenseofsaturn.blogspot.se',
-    contribution: ['Cannon movement logic and pathfinding (old versions, maybe omissible)',
-    'Cannon movement logic and pathfinding (old versions, maybe omissible)',
+    contribution: ['Turret shooting logic',
     'Score manager (lives and gold)',
     'Wave Spawning',
     'Building logic',
@@ -108,6 +109,10 @@ export const IMAGES = [
   {
     original: screenshot2,
     thumbnail: screenshot2,
+  },
+  {
+    original: screenshot3,
+    thumbnail: screenshot3,
   },
   {
     original: screenshot1,
