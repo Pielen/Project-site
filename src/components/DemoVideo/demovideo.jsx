@@ -10,7 +10,7 @@ class Demo extends Component {
         </h1>
         {this.props.demo &&
         <div className="media-embedder">
-          <iframe src={this.props.demo} width="480" height="360" frameBorder="0" gesture="media" allow="encrypted-media" allowFullScreen></iframe>
+          <iframe title="demo" src={this.props.demo} width="980" height="551" frameBorder="0" gesture="media" allow="encrypted-media" allowFullScreen></iframe>
         </div>}
         {this.props.gameplay &&
           <div>
@@ -18,7 +18,7 @@ class Demo extends Component {
               Game play
             </h1>
           <div className="media-embedder">
-            <iframe src={this.props.gameplay} width="800" height="360" frameBorder="0" gesture="media" allow="encrypted-media" allowFullScreen></iframe>
+            <iframe title="gameplay" src={this.props.gameplay} width="980" height="551" frameBorder="0" gesture="media" allow="encrypted-media" allowFullScreen></iframe>
           </div>
         </div>}
       </div>

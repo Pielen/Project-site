@@ -33,7 +33,11 @@ changeView(e){
         </div>
         {this.state.currentView === 'about' && <About text={ABOUT} />}
         {this.state.currentView === 'team' && <Team members={DOSTEAM} />}
-        {this.state.currentView === 'demo' && <Demo demo={"https://www.youtube.com/embed/qb6y1uFBr30?rel=0?ecver=2"} />}
+        {this.state.currentView === 'demo' &&
+          <Demo
+            demo={"https://www.youtube.com/embed/qb6y1uFBr30?rel=0?ecver=2"}
+            gameplay={"https://www.youtube.com/embed/b8FwIVw2N_o?rel=0?ecver=2"}
+            />}
         {this.state.currentView === 'media' && <Media images={IMAGES} />}
       </div>
     );
