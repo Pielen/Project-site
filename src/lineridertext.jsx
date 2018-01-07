@@ -1,8 +1,9 @@
 import adamPic from './assets/adam.jpg';
 import erikPic from './assets/erik.jpg';
-
-import avatar from './assets/avatar.png';
-
+import fredrikPic from './assets/fredrik.jpg';
+import johanPic from './assets/johan.jpg';
+import gustavPic from './assets/gustav.png';
+import marcusPic from './assets/marcus.jpg';
 
 export const LINETEAM = [
   {
@@ -11,7 +12,7 @@ export const LINETEAM = [
     email: 'adampi@kth.se',
     linkedin: 'https://www.linkedin.com/in/adam-pielbusch-b28026140/',
     github: 'https://github.com/Pielen',
-    blog: 'http://dh2650pielen.wordpress.com',
+    blog: '',
     contribution: ['Did this', 'Did that', 'Also this'],
   },
   {
@@ -25,39 +26,39 @@ export const LINETEAM = [
   },
   {
     name: 'Fredrik Spansk',
-    picture: avatar,
-    email: '',
-    linkedin: '',
-    github: '',
+    picture: fredrikPic,
+    email: 'fspansk@kth.se',
+    linkedin: 'https://www.linkedin.com/in/fredrik-spansk-01512451/',
+    github: 'https://github.com/fspansk',
     blog: '',
-    contribution: ['Did this', 'Did that', 'Also this'],
+    contribution: ['Image recognition', 'Image processing'],
   },
   {
     name: 'Gustav Fridh',
-    picture: avatar,
-    email: '',
-    linkedin: '',
-    github: '',
+    picture: gustavPic,
+    email: 'gfridh@kth.se',
+    linkedin: 'https://www.linkedin.com/in/gustav-fridh-909a1b11b/',
+    github: 'https://github.com/gfridh',
     blog: '',
-    contribution: ['Did this', 'Did that', 'Also this'],
+    contribution: ['Image recognition', 'Image processing'],
   },
   {
     name: 'Johan Thorell',
-    picture: avatar,
-    email: '',
-    linkedin: '',
-    github: '',
+    picture: johanPic,
+    email: 'jthorel@kth.se',
+    linkedin: 'https://www.linkedin.com/in/johan-torell-13253314b/',
+    github: 'https://github.com/jthorel',
     blog: '',
-    contribution: ['Did this', 'Did that', 'Also this'],
+    contribution: ['AR integration/interaction', 'Game mechanics/programming'],
   },
   {
     name: 'Marcus Frisell',
-    picture: avatar,
-    email: '',
-    linkedin: '',
-    github: '',
+    picture: marcusPic,
+    email: 'mfrisell@kth.se',
+    linkedin: 'https://www.linkedin.com/in/marcusfrisell/',
+    github: 'https://github.com/mfrisell',
     blog: '',
-    contribution: ['Did this', 'Did that', 'Also this'],
+    contribution: ['Image processing', 'UI'],
   }
 ];
 
