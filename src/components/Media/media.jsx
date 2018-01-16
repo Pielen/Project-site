@@ -10,7 +10,7 @@ class Media extends Component {
           Media
         </h1>
         <div className="image-gallery">
-          <ImageGallery items={this.props.images} />
+          <ImageGallery items={this.props.images} /> {/*https://github.com/xiaolin/react-image-gallery*/}
         </div>
       </div>
     );

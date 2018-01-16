@@ -1,9 +1,13 @@
 import adamPic from './assets/adam.jpg';
 import erikPic from './assets/erik.jpg';
-import fredrikPic from './assets/fredrik.jpg';
-import johanPic from './assets/johan.jpg';
-import gustavPic from './assets/gustav.png';
-import marcusPic from './assets/marcus.jpg';
+import fredrikPic from './assets/linerider/members/fredrik.jpg';
+import johanPic from './assets/linerider/members/johan.jpg';
+import gustavPic from './assets/linerider/members/gustav.png';
+import marcusPic from './assets/linerider/members/marcus.jpg';
+import screenshot1 from './assets/linerider/linerider1.jpg';
+import screenshot2 from './assets/linerider/linerider2.png';
+import screenshot3 from './assets/linerider/linerider3.jpg';
+
 
 export const LINETEAM = [
   {
@@ -13,7 +17,7 @@ export const LINETEAM = [
     linkedin: 'https://www.linkedin.com/in/adam-pielbusch-b28026140/',
     github: 'https://github.com/Pielen',
     blog: '',
-    contribution: ['Did this', 'Did that', 'Also this'],
+    contribution: ['Early ARKit testing', 'Webmaster', 'Video editing'],
   },
   {
     name: 'Erik Lindbom',
@@ -22,7 +26,7 @@ export const LINETEAM = [
     linkedin: 'https://www.linkedin.com/in/erik-lindbom-42585913a',
     github: 'https://github.com/elindbom',
     blog: '',
-    contribution: ['Did this', 'Did that', 'Also this'],
+    contribution: ['Design/creation of Character and Logo', 'Special effects - animation/vibration', 'Sound and game programming'],
   },
   {
     name: 'Fredrik Spansk',
@@ -49,7 +53,7 @@ export const LINETEAM = [
     linkedin: 'https://www.linkedin.com/in/johan-torell-13253314b/',
     github: 'https://github.com/jthorel',
     blog: '',
-    contribution: ['AR integration/interaction', 'Game mechanics/programming'],
+    contribution: ['AR integration/interaction', 'Game mechanics/programming', 'Actor/camera man for the video'],
   },
   {
     name: 'Marcus Frisell',
@@ -62,11 +66,21 @@ export const LINETEAM = [
   }
 ];
 
+{/*
+Goal and motivation of the project
+Explanation and Justification of the graphics and interaction technologies used and developed
+Obstacles
+Related work
+"Making of" documentary (2 minutes)
+Demo Reel (30 seconds)
+*/}
+
 
 export const ABOUT = [
   {
     title: 'What?',
-    text: 'Kälk-Nisse is basically Linerider, but in AR. If you haven´t checked out Linerider you can do that ',
+    text: 'Kälk-Nisse is basically Linerider, but in AR. Draw lines on a normal piece of paper and see on your phone how ' +
+    ' Kälk-Nisse slides on the line that you drew. If you haven´t checked out Linerider you can do that ',
     link: 'https://www.linerider.com/',
     linktext: 'here!',
   },
@@ -78,7 +92,43 @@ export const ABOUT = [
   },
   {
     title: 'How?',
-    text: 'Kälk-Nisse is developed in Unity with the AR kit plugin. A lot of time has been spent on developing a line recognition ' +
-    'algorithm. ',
+    text: 'Kälk-Nisse is developed in Unity with the ARKit plugin. A lot of time has been spent on developing a line recognition ' +
+    'algorithm. As this isn´t something that comes included with the ARKit we had to develop this from the ground. In short we look ' +
+    'for any pixel that is not white and from this pixel we search for connecting non-white pixels and do so untill we have a line.',
+  },
+  {
+    title: 'Challenges and lessons learned',
+    text: 'The main focus on this project has been the advanced interaction aspect. As the core of the ' +
+    'application is built on something we had to develop entirely on our own most of the challenges also came with that. ' +
+    'It might seem trivial to find a line on a piece of paper. The human eyes does it in a matter of milli seconds and  ' +
+    'the task is very straight forward. For a computer it´s not as easy. You have to make up rules for where to look, how to look ' +
+    'and how to connect what you have seen to what you will see.',
+    listtext: ['Mixing different technologies takes time.',
+    'You better think twice before implementing your own image recognition algorithm as it´s crucial that is´s responsive',
+    'We deepened our knowledge of Unity programming']
+  },
+  {
+    title: 'Reactions',
+    list: true,
+    listtext: ['"I miss the good ol´ days of Line rider!"', '"I really like the idea!"',
+    '"I don´t get it, it´s just a man sliding on a line."']
   }
 ];
+
+export const IMAGES = [
+  {
+    original: screenshot2,
+    thumbnail: screenshot2,
+    description: "Kälk-nisse",
+  },
+  {
+    original: screenshot3,
+    thumbnail: screenshot3,
+    description: "Open house @ VIC",
+  },
+  {
+    original: screenshot1,
+    thumbnail: screenshot1,
+    description: "Development",
+  },
+]

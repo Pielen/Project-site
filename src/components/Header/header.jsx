@@ -7,7 +7,7 @@ class Header extends Component {
     return (
       <header className={this.props.fullscreen === true ? "full-header" : "header"}>
         <img src={this.props.image} className="logo" alt="logo" />
-        {this.props.fullscreen === true && <img src={downArrow} className="arrow" alt="arrow" /> }
+        {this.props.fullscreen === true && <img src={downArrow} className="arrow" alt="arrow" />}
       </header>
     );
   }

@@ -16,7 +16,7 @@ class App extends Component {
           <div>
             <Route exact path="/" component={StartPage}/>
             <Route path="/dos" component={DOSpage}/>
-            <Route path="/linerider" component={LineRiderPage}/>
+            <Route path="/kalknisse" component={LineRiderPage}/>
           </div>
         </Router>
 

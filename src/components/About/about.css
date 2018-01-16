@@ -32,6 +32,14 @@
   text-align: justify;
   font-family: 'Work Sans', sans-serif; }
 
+.item-list {
+  list-style-type: circle;
+  list-style-position: outside; }
+
+.list-item {
+  text-align: left;
+  margin-bottom: 5px; }
+
 @media all and (max-width: 500px) {
   .text-area {
     margin-left: 1%;

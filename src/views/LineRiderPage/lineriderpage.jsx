@@ -6,7 +6,7 @@ import Team from '../../components/Team/team.jsx';
 import About from '../../components/About/about.jsx';
 import Demo from '../../components/DemoVideo/demovideo.jsx';
 import Media from '../../components/Media/media.jsx';
-import { LINETEAM, ABOUT } from '../../lineridertext.jsx';
+import { LINETEAM, ABOUT, IMAGES } from '../../lineridertext.jsx';
 import logo from '../../assets/Nisse_logo1.png';
 
 
@@ -33,8 +33,8 @@ changeView(e){
         </div>
           {this.state.currentView === 'about' && <About text={ABOUT} />}
           {this.state.currentView === 'team' && <Team members={LINETEAM} />}
-          {this.state.currentView === 'demo' && <Demo />}
-          {this.state.currentView === 'media' && <Media />}
+          {this.state.currentView === 'demo' && <Demo demo={"https://www.youtube.com/embed/sMOWD8I4XGs?rel=0&amp;ecver=2"} />}
+          {this.state.currentView === 'media' && <Media images={IMAGES} />}
       </div>
     );
   }
