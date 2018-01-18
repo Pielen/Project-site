@@ -7,6 +7,7 @@ import marcusPic from './assets/linerider/members/marcus.jpg';
 import screenshot1 from './assets/linerider/linerider1.jpg';
 import screenshot2 from './assets/linerider/linerider2.png';
 import screenshot3 from './assets/linerider/linerider3.jpg';
+import screenshot4 from './assets/linerider/linerider4.jpg';
 
 
 export const LINETEAM = [
@@ -26,7 +27,7 @@ export const LINETEAM = [
     linkedin: 'https://www.linkedin.com/in/erik-lindbom-42585913a',
     github: 'https://github.com/elindbom',
     blog: '',
-    contribution: ['Design/creation of Character and Logo', 'Special effects - animation/vibration', 'Sound and game programming'],
+    contribution: ['Design/creation of Character and Logo', 'Animation and vibration', 'Sound/game programming', 'Video editing'],
   },
   {
     name: 'Fredrik Spansk',
@@ -66,16 +67,6 @@ export const LINETEAM = [
   }
 ];
 
-{/*
-Goal and motivation of the project
-Explanation and Justification of the graphics and interaction technologies used and developed
-Obstacles
-Related work
-"Making of" documentary (2 minutes)
-Demo Reel (30 seconds)
-*/}
-
-
 export const ABOUT = [
   {
     title: 'What?',
@@ -94,18 +85,26 @@ export const ABOUT = [
     title: 'How?',
     text: 'Kälk-Nisse is developed in Unity with the ARKit plugin. A lot of time has been spent on developing a line recognition ' +
     'algorithm. As this isn´t something that comes included with the ARKit we had to develop this from the ground. In short we look ' +
-    'for any pixel that is not white and from this pixel we search for connecting non-white pixels and do so untill we have a line.',
+    'for any pixel that is not white and from this pixel we search for connecting non-white pixels and do so until we have a line.',
   },
   {
     title: 'Challenges and lessons learned',
     text: 'The main focus on this project has been the advanced interaction aspect. As the core of the ' +
     'application is built on something we had to develop entirely on our own most of the challenges also came with that. ' +
-    'It might seem trivial to find a line on a piece of paper. The human eyes does it in a matter of milli seconds and  ' +
+    'It might seem trivial to find a line on a piece of paper. The human eye does it in a matter of milliseconds and  ' +
     'the task is very straight forward. For a computer it´s not as easy. You have to make up rules for where to look, how to look ' +
-    'and how to connect what you have seen to what you will see.',
+    'and how to connect what you have seen to what you will see. ' +
+    'When it comes to the graphics, we kept it very simple and close to the original Linerider game. As it is in AR, the reality playes '+
+    'a big part of the graphics and therefore we put our focus on the interaction instead.',
     listtext: ['Mixing different technologies takes time.',
     'You better think twice before implementing your own image recognition algorithm as it´s crucial that is´s responsive',
     'We deepened our knowledge of Unity programming']
+  },
+  {
+    title: 'Related work',
+    text: 'The most related work is the game Linerider, as this is an adaptation of that. Apart from Linerider we have this paper: ',
+    link: 'http://digital.liby.waikato.ac.nz/conferences/ivcnz07/papers/ivcnz07-paper36.pdf',
+    linktext: 'AR Bridge Builder: Real-time Vectorisation of Freehand Sketched Structures for an AR Application.',
   },
   {
     title: 'Reactions',
@@ -122,13 +121,18 @@ export const IMAGES = [
     description: "Kälk-nisse",
   },
   {
+    original: screenshot1,
+    thumbnail: screenshot1,
+    description: "Development",
+  },
+  {
     original: screenshot3,
     thumbnail: screenshot3,
     description: "Open house @ VIC",
   },
   {
-    original: screenshot1,
-    thumbnail: screenshot1,
-    description: "Development",
+    original: screenshot4,
+    thumbnail: screenshot4,
+    description: "Mario testing the app",
   },
 ]
